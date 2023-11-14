@@ -1,0 +1,18 @@
+/* 
+Theme Name: wp_theme_1
+Theme URL: ###
+Version: 1.1
+Author: Fahim Mahmud
+Author URL: http://www.fahim.com
+Text Domain: mdfahim
+Required at least: 4.9.6
+Required PHP: 5.5
+Description: This is just a simplified example, and actual theme development may involve more complex code and additional template files.
+Tags: In this example, the code in  functions.php  enqueues the theme's CSS and JavaScript files, as well as registers navigation menus. The code in  index.php  is a basic loop that displays the title and content of each post on the website. The  get_header()  and  get_footer()  functions include the header and footer templates, respectively.  
+Locense: GNU General public license v2 or later
+License URL: http://www.fahim.com
+
+*/
+body{
+     background-color: red;
+}
