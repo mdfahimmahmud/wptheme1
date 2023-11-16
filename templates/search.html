@@ -1,0 +1,71 @@
+<!-- wp:template-part {"slug":"header","theme":"wptheme1","tagName":"header","className":"shadow"} /-->
+
+<!-- Page Header -->
+<div class="wp-block-udemy-plus-page-header">
+  <div class="inner-page-header">
+    <h1>Category: Cats</h1>
+  </div>
+</div>
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"4rem","bottom":"4rem"}}},"className":"container !mx-auto"} -->
+<div class="wp-block-columns container !mx-auto" style="margin-top:4rem;margin-bottom:4rem"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:html -->
+<!-- Search Block -->
+      <div class="wp-block-udemy-plus-search-form">
+        <h1>Search: Your search term here</h1>
+        <form>
+          <input type="text" placeholder="Search" />
+          <div class="btn-wrapper">
+            <button type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+<!-- /wp:html -->
+
+<!-- wp:query {"queryId":23,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"2.5rem","bottom":"2.5rem"},"padding":{"right":"2.5rem","left":"2.5rem"}}}} -->
+<div class="wp-block-columns" style="margin-top:2.5rem;margin-bottom:2.5rem;padding-right:2.5rem;padding-left:2.5rem"><!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:post-author {"avatarSize":24,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-700"}}},"spacing":{"margin":{"right":"0.5rem","left":"0.5rem"},"padding":{"top":"0px"}}},"textColor":"u-gray-700","className":"post-author"} /-->
+
+<!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-800"}}},"typography":{"fontSize":"1.25rem","fontStyle":"normal","fontWeight":"700","lineHeight":"1.75"},"spacing":{"margin":{"right":"0.5rem","left":"0.5rem"}}}} /-->
+
+<!-- wp:post-date {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}},"spacing":{"margin":{"bottom":"0.5rem","left":"0.5rem","right":"0.5rem"}}},"className":"!mt-aut"} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%" id="!mt-0"><!-- wp:post-featured-image {"isLink":true,"width":"100%","style":{"spacing":{"margin":{"right":"1rem","left":"1rem"}}},"className":"rounded-lg overflow-hidden"} /-->
+
+<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}},"typography":{"fontSize":"0.88rem"},"spacing":{"padding":{"right":"1rem","left":"1rem"}}},"textColor":"u-gray-500","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group has-u-gray-500-color has-text-color has-link-color" style="padding-right:1rem;padding-left:1rem;font-size:0.88rem"><!-- wp:post-terms {"term":"post_tag","style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}}}} /-->
+
+<!-- wp:post-comments-form {"className":"bi post-comment-count"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-excerpt {"style":{"typography":{"fontSize":"0.88rem"},"spacing":{"padding":{"right":"1rem","left":"1rem"}}}} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"chevron","style":{"elements":{"link":{"color":{"text":"var:preset|color|u-gray-500"}}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+<p></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:template-part {"slug":"sidebar","theme":"wptheme1"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:template-part {"slug":"footer","theme":"wptheme1","tagName":"footer","className":"bg-gray-700 p-16"} /-->
