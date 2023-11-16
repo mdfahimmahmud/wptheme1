@@ -1,0 +1,11 @@
+database name = wp_theme_dev_1
+root
+
+
+
+WP Theme
+username = root
+
+password = YI^GE^XLZ6R05d*R4#
+
+
